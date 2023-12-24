@@ -22,7 +22,7 @@ public class Main {
         Circle c3 = new Circle(4);
 
         try {
-            int d = getWeekDay("qaq");
+            int d = getWeekDay("ban");
             System.out.println(d);
         }   catch (RuntimeException e) {
             System.out.println(e.getMessage());
